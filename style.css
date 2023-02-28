@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'halo';
+    src: url(./font/Halo.ttf);
+}
+a{
+    font-family: 'halo';
+    text-shadow: 0 0 8px rgba(0, 0, 0, 2);
+    font-size: 2vmax;
+}
+#top{
+    color: rgb(16, 209, 209);
+}
+#barra1{
+    background-color: rgba(28, 32, 29, 0.35);;
+}
+ul{
+    background-color: rgba(169, 169, 169, 0.463);
+}
+
+header{
+    padding-top: 0%;
+    margin-top: 0%;
+}
+#section1{
+    background-image: url(./imgp1/52182-h.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-bottom: 50%;
+}
+footer{
+    background-image: url(./imgp1/Halo-FooterBanner_Option1-1920x350.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#items{
+    background-color: rgba(0, 0, 0, 0.489);
+    font-family: 'halo';
+    width: 100%;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 2);
+    font-size: 2vmax;
+}
+#items2{
+    transform: translate(20%,-140%);
+    font-family: 'halo';
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    font-size: 2vmax;
+}
+
+.i, .ii, .iii{
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+}
+
+@media all and (min-width: 1000px){
+    #imai{
+        width: 50px;
+        height: 50px;
+    }
+    .i ,.ii, .iii{
+        border-radius: 20px;
+        border-image-width: 2;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    }
+    #globa,#globb, #globc{
+        width:30%;
+        height: 70%;
+    }
+    #items{
+        background-color: rgba(0, 0, 0, 0);
+        font-family: 'halo';
+        width: 384px;
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+        font-size: 2vmax;
+        text-align: center;
+    }
+    #globa{
+        position: absolute;
+        transform: translate(40%, -140%);
+        margin-top: 50px;
+    }
+    #globa:hover{
+        width: 60%;
+        height: 140%;
+        z-index: 10;
+        position: absolute;
+        transform: translate(10%, -70%);
+
+    }
+    #globb:hover{
+        width: 60%;
+        height: 140%;
+        z-index: 10;
+        position: absolute;
+        transform: translate(10%, -70%);
+        
+    }
+    #globc:hover{
+        width: 60%;
+        height: 140%;
+        z-index: 10;
+        position: absolute;
+        transform: translate(10%, -70%);
+    }
+    #globb{
+        position: absolute;
+        transform: translate(60%, -120%);
+        margin-top: 60px;
+    }
+    #globc{
+        position: absolute;
+        transform: translate(80%, -100%);
+        margin-top: 70px;
+        z-index: 10;
+    }
+    #ig{
+        width: 45px;
+        height: 45px;
+    }
+    #micro{
+        width: 80px;
+        height: 50px;
+    }
+    #items2{
+        margin-top: auto;
+    }
+    section{
+        background-size: contain;
+    }
+}   
