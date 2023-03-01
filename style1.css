@@ -81,10 +81,11 @@ footer{
         margin-bottom: 2%;
     }
     #tb{
-        padding-left: 8%;
+        margin-left: 6%;
         margin-right: 0%;
         padding-right: 0%;
         padding-bottom: 1%;
+        width: 550px;
     }
     #ic{
         padding-left: 6%;
