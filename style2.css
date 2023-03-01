@@ -49,4 +49,33 @@ footer{
         width: 500px;
         height: 800px;
     }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    #ig{
+        width: 45px;
+        height: 45px;
+        margin-top: 5%;
+    }
+    #micro{
+        width: 80px;
+        height: 50px;
+        margin-top: 2%;
+    }
+    #camps{
+        width: 140px;
+        height: 50px;
+        margin-top: 2%;
+    }
+    #icons{
+        width: 50px;
+        height: 50px;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 5%;
+    }
+    #imgcas{
+        margin-top: 5%;
+    }
 }

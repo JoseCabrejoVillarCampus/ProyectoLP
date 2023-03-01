@@ -68,6 +68,9 @@ svg{
         width: 50px;
         height: 50px;
     }
+    #imai:hover{
+        color: #000;
+    }
     .i ,.ii, .iii{
         border-radius: 20px;
         border-image-width: 2;
@@ -143,8 +146,31 @@ svg{
     #infiniti{
         border: solid 7px #203C1380;    
     }
-    footer{
-        object-fit:contain;
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    #ig{
+        width: 45px;
+        height: 45px;
+        margin-top: 5%;
+    }
+    #micro{
+        width: 80px;
+        height: 50px;
+        margin-top: 2%;
+    }
+    #camps{
+        width: 140px;
+        height: 50px;
+        margin-top: 2%;
+    }
+    #icons{
+        width: 50px;
+        height: 50px;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 5%;
     }
     
 }   
