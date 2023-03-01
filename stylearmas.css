@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'halo';
+    src: url(./font/Halo.ttf);
+}
+a{
+    font-family: 'halo';
+    text-shadow: 0 0 8px rgba(0, 0, 0, 2);
+    font-size: 1.5vmax;
+}
+#top{
+    color: rgb(16, 209, 209);
+}
+#top:hover{
+    color: rgba(2, 56, 56, 0.792);
+}
+#barra1{
+    background-color: rgba(28, 32, 29, 0.35);;
+}
+ul{
+    background-color: rgba(169, 169, 169, 0.463);
+}
+
+header{
+    padding-top: 0%;
+    margin-top: 0%;
+}
+#section1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-bottom: 50%;
+}
+footer{
+    background-image: url(./imgp1/Halo-FooterBanner_Option1-1920x350.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#items{
+    background-color: rgba(0, 0, 0, 0.489);
+    font-family: 'halo';
+    width: 100%;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 2);
+    font-size: 2vmax;
+}
+#items2{
+    transform: translate(20%,-140%);
+    font-family: 'halo';
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    font-size: 2vmax;
+}
+
+.i, .ii, .iii{
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+}
+svg{
+    fill: blanchedalmond;
+}
+
+#accordionExample{
+    
+}
+
+
