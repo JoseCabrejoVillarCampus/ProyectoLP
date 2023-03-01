@@ -5,10 +5,13 @@
 a{
     font-family: 'halo';
     text-shadow: 0 0 8px rgba(0, 0, 0, 2);
-    font-size: 2vmax;
+    font-size: 1.5vmax;
 }
 #top{
     color: rgb(16, 209, 209);
+}
+#top:hover{
+    color: rgba(2, 56, 56, 0.792);
 }
 #barra1{
     background-color: rgba(28, 32, 29, 0.35);;
@@ -53,8 +56,14 @@ footer{
     width: 100%;
     height: 50%;
 }
+svg{
+    fill: blanchedalmond;
+}
 
 @media all and (min-width: 1000px){
+    a{
+        font-size: 5vh;
+    }
     #imai{
         width: 50px;
         height: 50px;
@@ -65,7 +74,7 @@ footer{
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
     }
     #globa,#globb, #globc{
-        width:30%;
+        width:40%;
         height: 70%;
     }
     #items{
@@ -76,45 +85,47 @@ footer{
         font-size: 2vmax;
         text-align: center;
     }
+
     #globa{
-        position: absolute;
-        transform: translate(40%, -140%);
-        margin-top: 50px;
+        float: left;
+        margin-top: -550px;
+        margin-left: 100px;
+    }
+    #globb{
+        float: left;
+        margin-top: -450px;
+        margin-left: 200px;
+    }
+    #globc{
+        float: left;
+        margin-top: -350px;
+        margin-left: 300px;
+        z-index: 10;
     }
     #globa:hover{
         width: 60%;
         height: 140%;
         z-index: 10;
-        position: absolute;
-        transform: translate(10%, -70%);
+        position: relative;
+        transform: translate(2%, 5%);
 
     }
     #globb:hover{
         width: 60%;
         height: 140%;
         z-index: 10;
-        position: absolute;
-        transform: translate(10%, -70%);
+        position: relative;
+        transform: translate(-10%, -13%);
         
     }
     #globc:hover{
         width: 60%;
         height: 140%;
         z-index: 10;
-        position: absolute;
-        transform: translate(10%, -70%);
+        position: relative;
+        transform: translate(-25%, -40%);
     }
-    #globb{
-        position: absolute;
-        transform: translate(60%, -120%);
-        margin-top: 60px;
-    }
-    #globc{
-        position: absolute;
-        transform: translate(80%, -100%);
-        margin-top: 70px;
-        z-index: 10;
-    }
+    
     #ig{
         width: 45px;
         height: 45px;
@@ -129,4 +140,11 @@ footer{
     section{
         background-size: contain;
     }
+    #infiniti{
+        border: solid 7px #203C1380;    
+    }
+    footer{
+        object-fit:contain;
+    }
+    
 }   

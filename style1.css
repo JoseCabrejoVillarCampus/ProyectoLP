@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'halo';
+    src: url(./font/Halo.ttf);
+}
+a{
+    font-family: 'halo';
+    text-shadow: 0 0 8px rgba(0, 0, 0, 2);
+    font-size: 1.5vmax;
+}
+
+h1{
+    font-family: 'halo';
+    text-shadow: 0 0 8px rgba(0, 0, 0, 2);
+    font-size: 2.3vmax;
+}
+
+body{
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./imgp2/2812767.jpg);
+    background-size: cover;
+}
+#top{
+    color: rgb(16, 209, 209);
+}
+#top:hover{
+    color: rgba(2, 56, 56, 0.792);
+}
+#barra1{
+    background-color: rgba(28, 32, 29, 0.35);;
+}
+ul{
+    background-color: rgba(169, 169, 169, 0.463);
+}
+#la{
+    background-color: rgba(0, 0, 0, 0.568);
+}
+#lb{
+    background-color: rgba(8, 104, 111, 0.687);
+}
+#lc{
+    background-color: rgba(160, 79, 21, 0.66);
+}
+
+header{
+    padding-top: 0%;
+    margin-top: 0%;
+}
+
+#jhon{
+    color: chocolate;
+}
+#halsey{
+    color: rgba(11, 145, 154, 0.945)
+}
+#cortana{
+    color: black;
+}
+svg{
+    fill: blanchedalmond;
+}
+footer{
+    background-image: url(./imgp1/Halo-FooterBanner_Option1-1920x350.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media all and (min-width: 1000px){
+    a{
+        font-size: 5vh;
+    }
+    #ia{
+        padding-left: 6%;
+        margin-bottom: 2%;
+    }
+    #ta{
+        padding-right: 6%;
+        padding-bottom: 1%;
+    }
+    #ib{
+        padding-left: 0%;
+        margin-left: 0%;
+        margin-bottom: 2%;
+    }
+    #tb{
+        padding-left: 8%;
+        margin-right: 0%;
+        padding-right: 0%;
+        padding-bottom: 1%;
+    }
+    #ic{
+        padding-left: 6%;
+        margin-bottom: 2%;
+    }
+    #tc{
+        padding-right: 6%;
+        padding-bottom: 1%;
+    }
+}
