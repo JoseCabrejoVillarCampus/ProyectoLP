@@ -45,9 +45,6 @@ footer{
     a{
         font-size: 5vh;
     }
-    footer{
-        display: flex;
-    }
     #imgchange{
         width: 500px;
         height: 800px;
