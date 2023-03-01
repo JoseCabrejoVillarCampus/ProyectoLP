@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'halo';
+    src: url(./font/Halo.ttf);
+}
+a{
+    font-family: 'halo';
+    text-shadow: 0 0 8px rgba(0, 0, 0, 2);
+    font-size: 1.5vmax;
+}
+
+h1{
+    font-family: 'halo';
+    text-shadow: 0 0 8px rgba(0, 0, 0, 2);
+    font-size: 2.3vmax;
+}
+#top{
+    color: rgb(16, 209, 209);
+}
+#top:hover{
+    color: rgba(2, 56, 56, 0.792);
+}
+#barra1{
+    background-color: rgba(28, 32, 29, 0.35);;
+}
+ul{
+    background-color: rgba(169, 169, 169, 0.463);
+}
+svg{
+    fill: blanchedalmond;
+}
+footer{
+    background-image: url(./imgp1/Halo-FooterBanner_Option1-1920x350.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media all and (min-width: 1000px){
+    a{
+        font-size: 5vh;
+    }
+}

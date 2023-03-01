@@ -12,11 +12,14 @@ a{
     text-shadow: 0 0 8px rgba(0, 0, 0, 2);
     font-size: 1.5vmax;
 }
-
+p{
+    text-shadow: 0 0 8px rgba(0, 0, 0, 2);
+}
 h1{
     font-family: 'halo';
     text-shadow: 0 0 8px rgba(0, 0, 0, 2);
     font-size: 2.3vmax;
+    color: blueviolet;
 }
 #top{
     color: rgb(16, 209, 209);
@@ -42,7 +45,11 @@ footer{
     a{
         font-size: 5vh;
     }
+    footer{
+        display: flex;
+    }
     #imgchange{
-        padding-left: 20%;
+        width: 500px;
+        height: 800px;
     }
 }
