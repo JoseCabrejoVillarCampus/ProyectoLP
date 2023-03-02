@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'halo';
+    src: url(./font/Halo.ttf);
+}
+#log{
+    font-family: 'halo';
+    text-shadow: 1px 1px 2px black;
+}
+#cuerpo{
+    background-color: rgba(0, 0, 0, 0.535);
+    border: solid chocolate 2px;
+    border-radius: 4% 4%;
+    margin-top: 2%;
+}
+
+body{
+    background-image: url(./login/1244079.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#user{
+    background-color: chocolate;
+}
+
+input{
+    background-color: black;
+    color: aliceblue;
+}
+#pass, #register{
+    color: chocolate;
+    text-shadow: 1px 1px 2px black;
+}
+
+#login{
+    background-color: chocolate;
+    color: black;
+}
