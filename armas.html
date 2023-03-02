@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" async integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" async integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./style1.css">
+    <link rel="stylesheet" href="./stylearmas.css">
     <link rel="icon" href="./imgp1/halo-zone-logo-png-28.png">
     <link rel="apple-touch-icon" href="./imgp1/halo-zone-logo-png-28.png">
 </head>
@@ -41,10 +41,10 @@
                         <a class="nav-link" href="juegos.html" id="top">Juegos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-decoration-underline" href="personajes.html" id="top">Personajes</a>
+                        <a class="nav-link " href="personajes.html" id="top">Personajes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="armas" id="top">Armas</a>
+                        <a class="nav-link text-decoration-underline" href="armas.html" id="top">Armas</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="nosotros.html" id="top">Nosotros</a>
@@ -53,97 +53,310 @@
             </div>
         </div>
     </section>
-    <div>
-        <div class="container-fluid ">
-            <div class="row row-cols-1 row-cols-lg-3">
-                <div class="col ">
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
-                        <div class="accordion-item bg-primary">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsetwo" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    <img class="img-fluid" src="impg3/Longsword-class_Interceptor-min.png" alt="">
-                                </button>
-                            </h2>
-                            <div id="flush-collapsetwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h1 class="vehiculos" id="vehiculos">VEHICULOS</h1>
+            <div class="container-fluid ">
+                <div class="row gy-5 row-cols-1 row-cols-lg-3 ms-lg-5 me-lg-5 pb-lg-3 mb-lg-3" id="ia">
+                    <div class="accordion col col-lg h-50 mt-5 pt-4 mt-lg-3  pt-lg-5 mt-md-4  pb-md-3 pt-md-2" id="accordionExample">
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsethree" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    <img class="img-fluid" src="impg3/HaloReach_-_Falcon-min.png" alt="">
-                                </button>
-                            </h2>
-                            <div id="flush-collapsethree" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button bg-dark bg-gradient type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              <a><img src="./impg3/HaloReach_-_Falcon-min.png" class="w-100 h-100" id="imgchange" style="object-fit: scale-down;" alt=""></a>
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark text-white text-center"><br>
+                                <h4><strong class="arm" id="arm1" >UH-144/VTOL PRINCIPAL DE APOYO/TRANSPORTE AIRE-TIERRA</strong></h4><br><p>En la UNSC no faltan las naves de despegue y aterrizaje vertical: al fin y al cabo, son ágiles, versátiles y muy efectivas si se emplean adecuadamente. Pero a diferencia del pesado Pelican D77-TC, del inmenso helicóptero de combate Vulture AC-220, del ágil Hornet AV-14 o del veloz Sparrowhawk AV-22, el Falcon UH-144 es tremendamente discreto sin sacrificar ni un ápice de efectividad</p>
                             </div>
+                          </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion col col-lg h-50 mt-5 pt-4 mt-lg-3  pt-lg-5 mt-md-4  pb-md-3 pt-md-2" id="accordionExample">
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    <img class="img-fluid" src="impg3/Longsword-class_Interceptor-min.png" alt="">
-                                </button>
-                            </h2>
-                            <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                            </div>
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button bg-dark bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                <a><img src="./impg3/Halo_Reach_Warthog-min.png" class="w-75 h-75" id="imgchange" style="object-fit: scale-down;" alt=""></a>
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark text-white text-center"><br>
+                                <h4><strong class="arm" id="arm2" >VEHICULO LIGERO DE RECONOCIMIENTO M12</strong></h4><br> <p>"En el campo de batalla la velocidad es vida y el M12 tiene eso a manos llenas – teniendo también una estupenda gran maldita arma que tampoco es dañina".<br>~Bungie.net haciendo una observación sarcástica de como el M12 tiene velocidad y armamento todo en uno<br><br>El Vehículo Ligero de Reconocimiento M12, abreviado Warthog M12 o comúnmente llamado Warthog, es un vehículo terrestre utilizado por el UNSC. Es una variante del Vehículo de Aplicación de Fuerza M12 y se encuentra armado con una torreta antiaérea en la parte trasera</p>
+                              </div>
+                          </div>
                         </div>
                     </div>
-                </div>
-                </div>
-                <div class="row row-cols-1 row-cols-lg-3 ">
-                <div class="col ">
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion col col-lg h-50 mt-5 pt-4 mt-lg-3  pt-lg-5 mt-md-4  pb-md-3 pt-md-2" id="accordionExample">
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    <img class="img-fluid" src="impg3/Pelican_HR-min.png" alt="">
-                                </button>
-                            </h2>
-                            <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button bg-dark bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                <a><img src="./impg3/1200px-H4-Mongoose-min.png" class="w-100 h-100" id="imgchange" style="object-fit: scale-down;" alt=""></a>
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark text-white text-center"><br>
+                                <h4><strong class="arm" id="arm3" >VEHICULO TODO TERRENO ULTRA-LIGERO M274</strong></h4><br> <p>El Vehículo Todo Terreno Ultra-Ligero M274, conocido comúnmente por Mongoose, es un vehículo terrestre ligero de reconocimiento del UNSC diseñado por AMG Transport Dynamics. Carece de armamento, pero es capaz de transportar a un pasajero armado en la parte posterior.</p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
-                        <div class="accordion-item mt-3">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    <img class="img-fluid" src="impg3/Porsche_Scorpion-min.png" alt="">
-                                </button>
-                            </h2>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
-                        <div class="accordion-item ">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesix" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    <img class="img-fluid" src="impg3/Halo_Reach_Warthog-min.png" alt="">
-                                </button>
-                            </h2>
-                            <div id="flush-collapsesix" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                            </div>
+                          </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="container-fluid ">
+                <div class="row gy-5 row-cols-1 row-cols-lg-3 ms-lg-5 me-lg-5" id="ia">
+                    <div class="accordion col col-lg h-50 mt-5 pt-4 mt-lg-3  pt-lg-5 mt-md-4  pb-md-3 pt-md-2" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button bg-dark bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                <a><img src="./impg3/Longsword-class_Interceptor-min.png" class="w-100 h-100" id="imgchange" style="object-fit: scale-down;" alt=""></a>
+                            </button>
+                          </h2>
+                          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark text-white text-center"><br>
+                                <h4><strong class="arm" id="arm4" >INTERCEPTOR/CAZA GA-TL1</strong></h4><br> <p>El Interceptor/Caza GA-TL1, conocido simplemente como Longsword, es una aeronave al servicio del UNSC.<br>Concebido por primera vez como un bombardero de ataque que combinaría capacidades transatmosféricas con una carga útil pesada, el Longsword GA-TL1 fue un estudio de diseño del siglo XXV creado por los arquitectos aeroespaciales Gov Aukland y Thomas Levesque. Ahora es el principal interceptor del UNSC, con varios patrones distintos en producción.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion col col-lg h-50 mt-5 pt-4 mt-lg-3  pt-lg-5 mt-md-4  pb-md-3 pt-md-2" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button bg-dark bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                <a><img src="./impg3/Pelican_HR-min.png" class="w-100 h-100" id="imgchange" style="object-fit: scale-down;" alt=""></a>
+                            </button>
+                          </h2>
+                          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark text-white text-center"><br>
+                                <h4><strong class="arm" id="arm5" >TRANSPORTE DE TROPAS D77</strong></h4><br> <p>El Transporte de Tropas D77, comúnmente conocido como Pelican D77, es una nave extremadamente versátil utilizada por la Armada, el Cuerpo de Marines, el Ejército y la Fuerza Aérea del UNSC principalmente para la evacuación y transporte de personal, vehículos y equipo, aunque también es usada como nave de ataque/apoyo en el campo de batalla. Puede transportar vehículos como Warthogs y Scorpions en la parte trasera o Mongooses dentro de la bodega.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion col col-lg h-50 mt-5 pt-4 mt-lg-3 mb-lg-5  pt-lg-5 mt-md-4  pb-md-3 pt-md-2" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button bg-dark bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                <a><img src="./impg3/Porsche_Scorpion-min.png" class="w-100 h-100" id="imgchange" style="object-fit: scale-down;" alt=""></a>
+                            </button>
+                          </h2>
+                          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark text-white text-center"><br>
+                                <h4><strong class="arm" id="arm6" >TANQUE PRINCIPAL DE BATALLA M808</strong></h4><br> <p>¿Buscabas el Tanque Principal de Batalla M820, Scorpion utilizado en Halo 5: Guardians?<br>"Los Tanques pueden con los Ghost... Los Tanques pueden con los Hunters... ¡Los Tanques pueden con todo!".
+                                    ~Marine en la Batalla de la Instalación 00
+                                    El Tanque Principal de Batalla M808, mejor conocido como Scorpion, es la plataforma de armas móviles blindada principal del UNSC.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
+        <div class="carousel-item">
+            <<h1 class="armas" id="armas">ARMAS</h1>
+            <div class="container-fluid ">
+                <div class="row gy-5 row-cols-1 row-cols-lg-3 ms-lg-5 me-lg-5 pb-lg-3 mb-lg-3" id="ia">
+                    <div class="accordion col col-lg h-50 mt-5 pt-4 mt-lg-3  pt-lg-5 mt-md-4  pb-md-3 pt-md-2" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOn">
+                            <button class="accordion-button bg-dark bg-gradient type="button" data-bs-toggle="collapse" data-bs-target="#collapseOn" aria-expanded="true" aria-controls="collapseOn">
+                              <a><img src="./impg3/59908211573a4510a651659768cdd706.png" class="w-100 h-100" id="imgchange" style="object-fit: scale-down;" alt=""></a>
+                            </button>
+                          </h2>
+                          <div id="collapseOn" class="accordion-collapse collapse" aria-labelledby="headingOn" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark text-white text-center"><br>
+                                <h4><strong class="arm" id="arm7" >ESPADA DE ENERGIA</strong></h4><br><p>"Un arma noble y antigua, manejada por los más fuertes Sangheili, se necesita gran habilidad y valentía para usarla e inspira miedo a los que se enfrentan a la elegante hoja de plasma".
+                                    ~Thel 'Vadam<br>La Espada de Energía (clasificada por el UNSC como Arma de Energía Tipo-1/Espada) es un arma de combate cuerpo a cuerpo usada y creada por la raza Sangheili antes y durante su unión al Covenant y después de su separación.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion col col-lg h-50 mt-5 pt-4 mt-lg-3  pt-lg-5 mt-md-4  pb-md-3 pt-md-2" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTw">
+                            <button class="accordion-button bg-dark bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTw" aria-expanded="true" aria-controls="collapseTw">
+                                <a><img src="./impg3/Halo_CEA_MA5B.png" class="w-100 h-100" id="imgchange" style="object-fit: scale-down;" alt=""></a>
+                            </button>
+                          </h2>
+                          <div id="collapseTw" class="accordion-collapse collapse" aria-labelledby="headingTw" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark text-white text-center"><br>
+                                <h4><strong class="arm" id="arm8" >SISTEMA DE ARMA DE COMBATE INDIVIDUAL MA5B</strong></h4><br><p></p>El Sistema de Arma de Combate Individual MA5B, también conocido como Rifle de Asalto MA5B, es un rifle de servicio estándar del Cuerpo de Marines del Comando Espacial de las Naciones Unidas..<br>A pesar de la menor precisión de esta arma en comparación con posteriores rifles de la Serie MA5, su tamaño relativamente compacto y su cargador de 60 rondas lo hizo activo poderoso en la defensa de naves y operaciones de abordaje durante la Insurrección y la Guerra Covenant, capaz de suprimir el fuego enemigo y neutralizar rápidamente líneas de infantería.</p>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion col col-lg h-50 mt-5 pt-4 mt-lg-3  pt-lg-5 mt-md-4  pb-md-3 pt-md-2" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThre">
+                            <button class="accordion-button bg-dark bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThre" aria-expanded="true" aria-controls="collapseThre">
+                                <a><img src="./impg3/463px-Sniplerifle.png" class="w-100 h-100" id="imgchange" style="object-fit: scale-down;" alt=""></a>
+                            </button>
+                          </h2>
+                          <div id="collapseThre" class="accordion-collapse collapse" aria-labelledby="headingThre" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark text-white text-center"><br>
+                                <h4><strong class="arm" id="arm9" >FRACONTIRADOR</strong></h4><br> <p>El Francotirador es un rifle de largo alcance usado para asegurar un tiro preciso a distancias que exceden el alcance máximo de armas más cortas. Un rifle de precisión típico que esta construido para los niveles óptimos de precisión, esta equipado con una mira telescópica y calibrada para el cartucho de centrado militar. El término se utiliza a menudo en los medios de comunicación para describir cualquier tipo de arma de fuego de precisión equipado con una mira telescópica.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid ">
+                <div class="row gy-5 row-cols-1 row-cols-lg-3 ms-lg-5 me-lg-5" id="ia">
+                    <div class="accordion col col-lg h-50 mt-5 pt-4 mt-lg-3  pt-lg-5 mt-md-4  pb-md-3 pt-md-2" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingFou">
+                            <button class="accordion-button bg-dark bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFou" aria-expanded="true" aria-controls="collapseFou">
+                                <a><img src="./impg3/H2A_T33Needler.png" class="w-100 h-100" id="imgchange" style="object-fit: scale-down;" alt=""></a>
+                            </button>
+                          </h2>
+                          <div id="collapseFou" class="accordion-collapse collapse" aria-labelledby="headingFou" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark text-white text-center"><br>
+                                <h4><strong class="arm" id="arm10" >LANZADOR DE AGUJAS PATRÓN-NAHLE'HAX</strong></h4><br> <p>El Lanzador de Agujas Patrón-Nahle'hax (Clasificado por el UNSC como Lanzador de Municiones Guiadas Tipo-33), más bien conocido como Aguijoneador, es una de las armas más exóticas del Covenant, que dispara una serie de fragmentos cristalinos que explotarán con violencia tras clavarse en su objetivo.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion col col-lg h-50 mt-5 pt-4 mt-lg-3  pt-lg-5 mt-md-4  pb-md-3 pt-md-2" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingFiv">
+                            <button class="accordion-button bg-dark bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFiv" aria-expanded="true" aria-controls="collapseFiv">
+                                <a><img src="./impg3/Magnum_M6D_H5G.png" class="w-100 h-100" id="imgchange" style="object-fit: scale-down;" alt=""></a>
+                            </button>
+                          </h2>
+                          <div id="collapseFiv" class="accordion-collapse collapse" aria-labelledby="headingFiv" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark text-white text-center"><br>
+                                <h4><strong class="arm" id="arm11" >SISTEMA DE ARMA DE DEFENSA PERSONAL M6D</strong></h4><br> <p>El Sistema de Arma de Defensa Personal M6D, también conocida como la pistola Magnum M6D, es un arma del Comando Espacial de las Naciones Unidas y es una de las variantes de la Serie M6 de pistolas de la Armería Misriah.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion col col-lg h-50 mt-5 pt-4 mt-lg-3 mb-lg-5  pt-lg-5 mt-md-4  pb-md-3 pt-md-2" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingSi">
+                            <button class="accordion-button bg-dark bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSi" aria-expanded="true" aria-controls="collapseSi">
+                                <a><img src="./impg3/DMR_HR.png" class="w-100 h-100" id="imgchange" style="object-fit: scale-down;" alt=""></a>
+                            </button>
+                          </h2>
+                          <div id="collapseSi" class="accordion-collapse collapse" aria-labelledby="headingSi" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark text-white text-center"><br>
+                                <h4><strong class="arm" id="arm12" >RIFLE DE TIRADOR DESIGNADO M392</strong></h4><br> <p>"El DMR de un sólo disparo acabará con el objetivo, es algo más intermedio entre los rifle de batalla y francotirador. Es casi mortal en corta distancia".<br>
+                                    El Rifle de Tirador Designado M392, mejor conocido como DMR M392, es un Rifle de Tirador Designado refrigerado por aire accionado por gas. Dispara municiones de 7.62x51mm.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="carousel-item">
+            <h1 class="vehiculosc" id="vehiculosc">VEHICULOS COVENANT</h1>
+            <div class="container-fluid ">
+                <div class="row gy-5 row-cols-1 row-cols-lg-3 ms-lg-5 me-lg-5 pb-lg-3 mb-lg-3" id="ia">
+                    <div class="accordion col col-lg h-50 mt-5 pt-4 mt-lg-3  pt-lg-5 mt-md-4  pb-md-3 pt-md-2" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingO">
+                            <button class="accordion-button bg-dark bg-gradient type="button" data-bs-toggle="collapse" data-bs-target="#collapseO" aria-expanded="true" aria-controls="collapseO">
+                              <a><img src="./impg3/H2A_T26A_.png" class="w-100 h-100" id="imgchange" style="object-fit: scale-down;" alt=""></a>
+                            </button>
+                          </h2>
+                          <div id="collapseO" class="accordion-collapse collapse" aria-labelledby="headingO" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark text-white text-center"><br>
+                                <h4><strong class="arm" id="arm13" >AERONAVE DE ATAQUE PATRÓN-OGHAL</strong></h4><br><p>La Aeronave de Ataque Patrón-Oghal (clasificado por el UNSC como Aeronave de Apoyo Terrestre Tipo-26A), mejor conocido como Banshee, es un vehículo aéreo del Covenant.<br>Fácilmente el patrón de diseño de Banshee más común y versátil, el Oghal incluye Cañones de Plasma integrados, vainas de propulsión de punta de ala y un solo Cañón de Combustible. Éste y su patrón hermano casi idéntico, Irdnekt, fueron los favoritos de los mejores Caballeros Aéreos y pilotos altamente competentes que llevaron a cabo operaciones tácticas de vigilancia, búsqueda y destrucción durante la Guerra de Aniquilación.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion col col-lg h-50 mt-5 pt-4 mt-lg-3  pt-lg-5 mt-md-4  pb-md-3 pt-md-2" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingT">
+                            <button class="accordion-button bg-dark bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#collapseT" aria-expanded="true" aria-controls="collapseT">
+                                <a><img src="./impg3/HReach-PhantomGunboatSide.png" class="w-75 h-75" id="imgchange" style="object-fit: scale-down;" alt=""></a>
+                            </button>
+                          </h2>
+                          <div id="collapseT" class="accordion-collapse collapse" aria-labelledby="headingT" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark text-white text-center"><br>
+                                <h4><strong class="arm" id="arm14" >NAVE ATACANTE PATRÓN-R'SHWUPA</strong></h4><br> <p>La Nave Atacante Patrón-R'shwupa, también conocido como Phantom Espacial es una variante del Phantom con armamento pesado.<br>Creado como un transporte ejecutivo para los comandantes de flota, una nave de ataque de asalto pesado contra activos orbitales y un cañonero de apoyo de asaltos terrestres, el patrón R'shwupa, fue considerado la nave de descenso más poderosa jamás empleada por las fuerzas del Covenant. Equipado con poderosos escudos de energía y una variedad de sistemas de armas pesadas, muy poco podría mitigar su ataque devastador.</p>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion col col-lg h-50 mt-5 pt-4 mt-lg-3  pt-lg-5 mt-md-4  pb-md-3 pt-md-2" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThr">
+                            <button class="accordion-button bg-dark bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThr" aria-expanded="true" aria-controls="collapseThr">
+                                <a><img src="./impg3/AAWraith.png" class="w-100 h-100" id="imgchange" style="object-fit: scale-down;" alt=""></a>
+                            </button>
+                          </h2>
+                          <div id="collapseThr" class="accordion-collapse collapse" aria-labelledby="headingThr" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark text-white text-center"><br>
+                                <h4><strong class="arm" id="arm15" >CAZADOR AÉREO PATRÓN-OGAB'D</strong></h4><br> <p>El Cazador Aéreo Patrón-Ogab'd (Clasificado por el UNSC como Artillería Anti-Aérea Tipo-52), o conocido como Wraith Anti-Aéreo es solo un variación del Wraith regular.<br>Reemplaza el mortero de plasma por dos cañones de combustible de triples . Aunque obviamente estaba destinado a ser un vehículo antiaéreo, el Tipo-52 también puede, y fue, utilizado en una función de fuego directo con un efecto devastador.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid ">
+                <div class="row gy-5 row-cols-1 row-cols-lg-3 ms-lg-5 me-lg-5" id="ia">
+                    <div class="accordion col col-lg h-50 mt-5 pt-4 mt-lg-3  pt-lg-5 mt-md-4  pb-md-3 pt-md-2" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingFo">
+                            <button class="accordion-button bg-dark bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFo" aria-expanded="true" aria-controls="collapseFo">
+                                <a><img src="./impg3/975-9758244_halo3-ghost-ghost-from-halo-3.png" class="w-100 h-100" id="imgchange" style="object-fit: scale-down;" alt=""></a>
+                            </button>
+                          </h2>
+                          <div id="collapseFo" class="accordion-collapse collapse" aria-labelledby="headingFo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark text-white text-center"><br>
+                                <h4><strong class="arm" id="arm16" >GHOST</strong></h4><br> <p>El Ghost fue el principal vehículo de exploración del Covenant, y un elemento básico indiscutible de sus fuerzas terrestres a lo largo de innumerables campañas. Rápido y maniobrable, el Ghost se puede usar para todo, desde reconocimiento profundo hasta merodeadores. Con dos Cañones de Plasma montados en su frente, un solo operador en un Ghost puede infligir un daño significativo a la infantería enemiga a través de emboscadas y carreras de flanqueo. La capacidad del vehículo para cambiar hábilmente de movimientos hacia adelante a movimientos horizontales le brinda al conductor, que de otro modo estaría expuesto, una medida de protección, lo que le permite realizar giros rápidos y cambios drásticos de dirección con una facilidad y una velocidad notables.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion col col-lg h-50 mt-5 pt-4 mt-lg-3  pt-lg-5 mt-md-4  pb-md-3 pt-md-2" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingFi">
+                            <button class="accordion-button bg-dark bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFi" aria-expanded="true" aria-controls="collapseFi">
+                                <a><img src="./impg3/H2A_Render_Phantom.png" class="w-100 h-100" id="imgchange" style="object-fit: scale-down;" alt=""></a>
+                            </button>
+                          </h2>
+                          <div id="collapseFi" class="accordion-collapse collapse" aria-labelledby="headingFi" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark text-white text-center"><br>
+                                <h4><strong class="arm" id="arm17" >TRANSPORTE DE GUERREROS PATRÓN-KEZ'KATU</strong></h4><br> <p>El Transporte de Guerreros Patrón-Kez'ktu (Clasificado por el UNSC como Transporte de Tropas Tipo-52), más comúnmente conocido como Phantom, es una nave de transporte y armamento en servicio con el Covenant.<br>El Phantom es uno de los principales métodos de transporte y despliegue de infantería del Covenant en entornos tanto atmosféricos como exoatmosféricos. El Phantom T-52 está compuesto por un casco central circular con una cabina cerrada para el operador en la parte delantera y un par de turbinas gemelas colocadas en los bordes exteriores de la embarcación, que se perfilan hacia arriba y nuevamente en forma de aletas aerodinámicas. En ambos lados yacen puertas abiertas de la bahía y debajo un elevador de gravedad; los tres permiten un rápido despliegue de infantería en casi cualquier tipo de terreno.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion col col-lg h-50 mt-5 pt-4 mt-lg-3 mb-lg-5  pt-lg-5 mt-md-4  pb-md-3 pt-md-2" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingS">
+                            <button class="accordion-button bg-dark bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#collapseS" aria-expanded="true" aria-controls="collapseS">
+                                <a><img src="./impg3/Spirit.png" class="w-100 h-100" id="imgchange" style="object-fit: scale-down;" alt=""></a>
+                            </button>
+                          </h2>
+                          <div id="collapseS" class="accordion-collapse collapse" aria-labelledby="headingS" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark text-white text-center"><br>
+                                <h4><strong class="arm" id="arm18" >TRANSPORTE DE GUERREROS PATRÓN-DEXTRO XUR</strong></h4><br> <p>"Los Marines los llamaron Spirit porque eran la muerte reencarnada. Salían de la nada, sin emitir un sonido, y simplemente comenzaban a desplegar Covies en nuestro patio delantero".
+                                    ~Teniente Tara Nguyen<br>
+                                    El Transporte de Guerreros Patrón-Dextro Xur (Clasificado por el UNSC como Transporte de tropas Tipo-25), [2] también conocido como Spirit o Nave Clase-DX, [3] es una nave de transporte de artillería, equipo e infantería del Covenant.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <button class="carousel-control-prev mt-lg-5" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next mt-lg-5" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
     </div>
     <footer class="pb-2">
         <div class=" d-flex flex-row container-fluid footer ms-5 ms-lg-0">

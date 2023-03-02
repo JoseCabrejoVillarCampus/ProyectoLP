@@ -4,73 +4,343 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juegos-Halo</title>
+    <title>Halo-Juegos</title>
+            <!-- Estilos propios -->
+    <link rel="stylesheet" href="styles-juegos.css">
+            <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles-juegos.css">
-    <link rel="icon" href="img-juegos/icon.webp">
-    <link rel="icon" href="./imgp1/halo-zone-logo-png-28.png">
-    <link rel="apple-touch-icon" href="./imgp1/halo-zone-logo-png-28.png">
-    
-
+            <!-- iconos -->
+    <link rel="icon" href="imgs-juegos/icon-page.png">
+    <link rel="apple-touch-icon" href="imgs-juegos/icon-page.png">
+            <!-- Color barra de navegacion movil -->
+    <meta name="theme-color" content="#918a89">
 </head>
 <body>
-    <header class="position-relative bg-dark">
-        <nav class="navbar navbar-light mb-0 pb-0" id="barra1">
-            <div class="container-fluid d-flex-space-around">
-              <div class="ps-0">
-                <a class="navbar-brand" href="index.html">
-                    <img src="./imgp1/Halo-Logo.png" alt="" width="100"  height="100" class="d-inline-block img-fluid ms-5 imai">
-                </a>
-              </div>
-              <div class="pe-lg-5">
-                <a class="navbar-brand" href="#">
-                    <img src="./imgp1/Microsoft-Logo-PNG.png" alt="" width="100" height="30" class="d-inline-block img-fluid mb-2 imaii" >
-                  </a>
-                  <a class="navbar-brand" href="#">
-                    <img src="./imgp1/halo-zone-logo-png-28.png" alt="" width="30" height="30" class="d-inline-block img-fluid imaiii">
-                  </a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-primary navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="imgs-juegos/profile-round.png" alt="logo-casco"><img src="imgs-juegos/Halo-Logo1.png" width="150"  height="150" class="img-fluid" alt="Logo-name"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end " id="navbarNav" >
+                <ul class="navbar-nav text-center">
+                  <li class="nav-item pe-3">
+                    <a class="nav-link active text-success fw-bold nav-letra" aria-current="page" href="juegos.html#reach">HALO:REACH</a>
+                  </li>
+                  <li class="nav-item pe-3">
+                    <a class="nav-link text-success fw-bold nav-letra" href="juegos.html#combat">HALO:COMBAT EVOLUTION</a>
+                  </li>
+                  <li class="nav-item pe-3">
+                    <a class="nav-link text-success fw-bold v" href="juegos.html#halo2">HALO:2</a>
+                  </li>
+                  <li class="nav-item pe-3">
+                    <a class="nav-link text-success fw-bold nav-letra" href="juegos.html#halo3">HALO:3 ODST</a>
+                  </li>
+                  <li class="nav-item pe-3">
+                    <a class="nav-link text-success fw-bold nav-letra" href="juegos.html#halo4">HALO:4</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </nav>
     </header>
-    <section class="section pt-0 mt-0" height="200" id="section1">
-        <div class="container-fluid pt-0 mt-0" id="nav2">
-            <div class="row  row-cols-1 row-cols-lg-1 pt-0 mt-0">
-                <ul class="nav justify-content-center justify-content-lg-evenly px-1 px-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="juegos.html" id="top">Juegos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="personajes.html" id="top">Personajes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="armas.html" id="top">Armas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="nosotros.html" id="top">Nosotros</a>
-                    </li>
+    <main>
+      <div class="back">
+          <section class="section" height="200" >
+              <header>
+                <div class="container-fluid pt-0 mt-0">
+                    <div class="row  row-cols-1 row-cols-lg-1 pt-0 mt-0 back-nav2 fs-3 fw-bold">
+                        <ul class="nav justify-content-center justify-content-lg-evenly px-2 px-lg-0 ">
+                            <li class="nav-item letra">
+                                <a class="nav-link  text-decoration-underline" href="juegos.html">Juegos</a>
+                            </li>
+                            <li class="nav-item letra">
+                                <a class="nav-link " href="personajes.html">Personajes</a>
+                            </li>
+                            <li class="nav-item letra">
+                                <a class="nav-link " href="armas.html">Armas</a>
+                            </li>
+                            <li class="nav-item letra">
+                                <a class="nav-link" href="nosotros.html">Nosotros</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+          </section>
+          <section>
+            <div class="d-flex flex-column justify-content-center" style="height: 1100px;">
+                <div class="d-block text-white fw-bold pt-5 mt-5  letra text-center">
+                  <h1 class="fs-1">
+                    <strong>LA EXPERIENCIA DEFINITIVA DE HALO</strong>
+                    
+                  </h1>
+                </div>
+                <div class="text-white fw-bold pt-5 mt-5 mb-5 pt-5 fs-3 letra text-center" style="height: 300px;">
+                  <p> <strong>La serie que cambió los videojuegos para siempre, con sesis legendarios titulos</strong>   </p>
+                </div>
+
+                <div class="d-block text-white fw-bold pt-5 mt-5 letra text-center">
+                  <h2 class="fs-1">
+                    <strong>
+                    Disponible en :
+                    </strong>
+                  </h2>
+                </div>
+                <div class="d-block d-flex text-white fw-bold pt-5 mt-5 fs-3 letra justify-content-evenly">
+                <img class="img-fluid " id="img-1" src="imgs-juegos/download-removebg-preview.png" alt=""  >
+                <img class="img-fluid " id="img-2" src="imgs-juegos/microsoft-80658_960_720.webp" alt=""  >
+                </div>
+          </div>
+          </section>
+      </div>
+      <div class="back2">
+            <section>
+              <div class="d-flex flex-column justify-content-center" style="height: 900px;">
+                  <div class="d-block text-warning pt-5 mt-5 text-center">
+                    <div class="d-flex justify-content-center">
+                      <img class="img-fluid mb-5 pb-5" src="imgs-juegos/icon-back-2.png" width="150"  height="150" alt="">
+                    </div>
+                    <h1 class="letra-3">
+                      <strong>
+                      SEIS JUEGOS, UNA SAGA EPICA.
+                      </strong>
+                    </h1>
+                  </div>
+                  <div class="text-white fw-bold pt-5 mt-5 mb-5 pt-5 fs-3 letra-2 text-center" style="height: 300px;">
+                    <p><strong> Halo: The Master Chief Collection permite a todos los jugadores realizar su propio viaje a lo largo de seis juegos: Halo: Reach, Halo: Combat Evolved Anniversary, Halo 2: Anniversary, Halo 3, Halo 3: ODST Campaign y Halo 4. Comenzando con la increíble valentía de Noble seis en Halo: Reach y terminando con el surgimiento de un nuevo enemigo en Halo 4, experimenta la saga completa del Jefe Maestro con un total de 67 misiones de campaña.</strong> </p>
+                  </div>
+              </div>
+            </section>
+      </div>
+
+      <div class="back3 text-center">
+        <h2 class="letra-3 fs-1"> <strong>MEDIA GALLERY </strong> </h2>
+        <section>
+          <div class="d-flex flex-column justify-content-center">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="imgs-juegos/carrusel-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="imgs-juegos/carrusel-2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="imgs-juegos/carrusel-3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="imgs-juegos/carrusel-4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="imgs-juegos/carrusel-5.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="imgs-juegos/carrusel-6.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="imgs-juegos/carrusel-7.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </section>
+        
+  </div>
+  <div class="back4 container-fluid pt-5" id="reach">
+    <div class="container-fluid">
+      <div class="row gy-2 row-cols-1 row-cols-lg-2">
+        <div class="col col-lg h-50 mt-0 mt-lg-5 pt-lg-2">
+          <div class=" rounded w-100 ">
+              <img src="imgs-juegos/halo-reach.jpg" class="w-100 h-100" style="object-fit: scale-down;">
+          </div>
+        </div>
+          <div class="col col-lg">
+              <h2 class="text-center letra-3">HALO: REACH</h2>
+              <div class="overflow-auto h-75 text-center rounded p-2">
+                <h3> Historia</h3>
+                  <p>"La historia del juego toma lugar en el planeta Reach durante el verano del año 2552. Después de perder a Noble Seis (quien murió al no poder escapar de la explosión de una bomba en una nave Covenant), el Equipo Noble se encuentra únicamente integrado por cinco Spartans, por lo que el reemplazo de Noble Seis es enviado a Reach para formar parte del Equipo."</p>
+                  <h3> Personajes Prinipales</h3>
+                <ul>
+                  <li>Carter-A-259</li>
+                  <li>Jorge-052</li>
+                  <li>Catherine-B320</li>
+                  <li>Jun-A-266</li>
+                  <li>Emile-A-239</li>
+                  <li>Noble-Seis</li>
+                  <li>Urban Holland</li>
+                  <li>Auntie Dot</li>
+                  <li>Catherine Elizabeth Halsey</li>
+
                 </ul>
-            </div>
+                <h3>Lanzamiento (EU)</h3>
+                  <p>14 de Septiembre de 2010 (original), 3 de diciembre de 2019 (remasterización)</p>
+              </div>
+          </div>
+         
+      </div>
+    </div>
+  </div>
+  <div class="back5 container-fluid" id="combat">
+    <div class="container-fluid">
+      <div class="row gy-5 row-cols-1 row-cols-lg-2">
+        <div class="col col-lg h-50 mt-0 mt-lg-5 pt-lg-2">
+          <div class="rounded w-100 py-3">
+              <img src="imgs-juegos/halo-combat-evolvedjpg" class="w-100 h-100" style="object-fit: scale-down;">
+          </div>
         </div>
-    </section>
+          <div class="col col-lg">
+              <h2 class="text-center letra-3">HALO: COMBAT EVOLUTION</h2>
+              <div class="overflow-auto h-75 rounded p-2 text-center">
+                <h3> Historia</h3>
+                  <p>"Mientras el Crucero Ligero Clase-Halcyon UNSC Pillar of Autumn emerge de un salto desliespacial, a lo lejos se aprecia una gran estructura en forma de anillo. El protagonista principal, John-117 o el "Jefe Maestro", está en sueño criogénico dentro de la nave cuando son abordados por el Covenant, un colectivo de razas alienígenas unidas por sus fanáticas creencias religiosas. El Jefe Maestro es despertado de su sueño criogénico para así ayudar en la evacuación de la nave para aterrizar en la superficie del HALO (Instalación 04), consiguiendo así su primer objetivo, la protección de la IA que le acompaña: Cortana. Esta IA contiene información vital para la raza humana, y por ello no debe ser capturada por el Covenant, ya que al ocurrir esto podrían descubrir la localización del planeta Tierra. Descubriendo los secretos de Halo con la ayuda de Cortana, el Jefe Maestro consigue destruir el anillo y toda una armada del Covenant pero a un costo demasiado alto."</p>
+                  <h3> Personajes Prinipales</h3>
+                  <ul>
+                    <li>John-117 (Principal Protagonista)</li>
+                    <li>Cortana</li>
+                    <li>Jacob Keyes</li>
+                    <li>343 Guilty Spark (Antagonista)</li>
+                    <li>Avery Junior Johnson</li>
+                  </ul>
+                <h3>Lanzamiento (EU)</h3>
+                  <p>15 de Noviembre de 2001</p>
+              </div>
+          </div>
+         
+      </div>
+    </div>
+  </div>
+    <div class="container-fluid" id="halo2" >
+      <div class="row gy-5 row-cols-1 row-cols-lg-2">
+        <div class="col col-lg h-50 mt-0 mt-lg-5 pt-lg-2">
+          <div class="rounded w-100 py-3">
+              <img src="imgs-juegos/halo-2jpg" class="w-100 h-100" style="object-fit: scale-down;">
+          </div>
+        </div>
+          <div class="col col-lg">
+              <h2 class="text-center letra-3">HALO: 2</h2>
+              <div class="overflow-auto h-75 rounded p-2 text-center">
+                <h3> Historia</h3>
+                  <p>"En el comienzo del juego, el Jefe Maestro es premiado por su acciones en Halo, mientras que en Gran Caridad, la ciudad del Covenant, el Comandante Sangheili Thel 'Vadamee es castigado por permitir que el Jefe Maestro destruyera la Instalación 04.Esto, en una audiencia presidida por los Profetas de la Verdad, del Pesar y de la Piedad, es donde acusan al Sangheili de hereje y lo castigan quemándole con la marca de la vergüenza en su pecho.Cuando se hace la premiación en la Estación Cairo, se dan cuenta que una flota Covenant se acerca a la Tierra, por lo que Lord Hood le dice a la Comandante Miranda Keyes (hija de Jacob Keyes, quien murió en la Instalación 04 a manos del Flood) que aborde su nave y detenga la invasión; Lord Hood se muestra desencajado por la flota tan reducida del Covenant que se acerca a la Tierra siendo sólo 15 naves de línea, asegurando que la flota que destruyó Reach era 50 veces más grande, pero al detectar naves de abordaje "por montones" deduce que la estrategia del Covenant es inutilizar los Cañones MAC para que las naves de línea tengan vía libre a la Tierra, por lo que le pide a John-117 que proteja la Estación Cairo del Covenant."</p>
+                  <h3> Personajes Prinipales</h3>
+                <ul>
+                  <li>Jefe Maestro Oficial Menor John-117</li>
+                  <li>IA Cortana</li>
+                  <li>Inquisidor Thel 'Vadamee (Primera Aparición)</li>
+                  <li>Líder Hereje Sesa 'Refumee (Primera Aparición)</li>
+                  <li>Avery Junior Johnson</li>
+                </ul>
+                <h3>Lanzamiento (EU)</h3>
+                  <p>9 de Noviembre de 2004</p>
+              </div>
+          </div>
+         
+      </div>
+    </div>
+  </div>
+
+  <div class="back6 container-fluid" id="halo3">
+    <div class="container-fluid">
+      <div class="row gy-5 row-cols-1 row-cols-lg-2">
+        <div class="col col-lg h-50 mt-0 mt-lg-5 pt-lg-2">
+          <div class=" rounded w-100 py-3">
+              <img src="imgs-juegos/halo-3-odst.jpg" class="w-100 h-100" style="object-fit: scale-down;">
+          </div>
+        </div>
+          <div class="col col-lg">
+              <h2 class="text-center letra-3">HALO:3 ODST</h2>
+              <div class="overflow-auto h-75  rounded p-2 text-center">
+                <h3> Historia</h3>
+                  <p>"La campaña comienza seis horas después del descenso, cuando el Novato despierta. Él comienza a buscar a sus compañeros, lo cual lo guía hasta una base de datos en la cual encuentra el casco de Dare. Este casco es como una "terminal", en donde el Novato ve qué ocurrió, en este caso, la historia retrocede seis horas, y ahora el jugador se encuentra en el papel del Sargento Buck, el cual recibe transmisiones de Dare sobre su posición, informándole que se encuentra atrapada en su cápsula. Éste va a buscarla y tras vencer a varios Covenant llega hasta su cápsula. Cuando abre el HEV observa que está vacío, posteriormente aparece un Huragok, el cual lo tira al suelo, pero éste es eliminado por Romeo, aquí es donde ambos se reúnen y el jugador vuelve a controlar al Novato."</p>
+                  <h3> Personajes Prinipales</h3>
+                <ul>
+                  <li>Soldado de Primera "El Novato"</li>
+                  <li>Capitán Veronica Dare</li>
+                  <li>Profeta de la Verdad</li>
+                  <li>Sargento de Artillería Edward Buck</li>
+                  <li>Cabo Taylor Henry Miles</li>
+                </ul>
+                <h3>Lanzamiento (EU)</h3>
+                  <p>22 de Septiembre de 2009</p>
+              </div>
+          </div>
+         
+      </div>
+    </div>
+  </div>
+  <div class="back7 container-fluid" id="halo4">
+    <div class="container-fluid">
+      <div class="row gy-5 row-cols-1 row-cols-lg-2">
+        <div class="col col-lg h-50 mt-0 mt-lg-5 pt-lg-2">
+          <div class=" rounded w-100 py-3 pt-5 mt2">
+              <img src="imgs-juegos/halo-4.webp" class="w-100 h-100" style="object-fit: scale-down;">
+          </div>
+        </div>
+          <div class="col col-lg">
+              <h2 class="text-center letra-3">HALO: 4</h2>
+              <div class="overflow-auto h-75 rounded p-2 text-center">
+                <h3 class="letra-3"> Historia</h3>
+                  <p class="text-white">Han pasado 4 años, 7 meses y 10 días después de los eventos de Halo 3 y el Jefe Maestro y Cortana siguen vagando en el espacio en los remanentes de la Fragata UNSC Forward Unto Dawn. El 20 de Julio de 2557, Cortana logra detectar un horrible estruendo en la nave, lo que la obliga a despertar al Jefe Maestro sin antes decirle la razón por la cual lo despertó y qué es lo que ella hizo mientras él dormía. John abre su Cámara Criogénica, toma a Cortana y empieza a investigar qué es lo que pasa. Cortana logra detectar 2 cosas: dos Cruceros al lado de la Forward Unto Dawn y que se estrellarán en un planeta Forerunner. Cortana le dice al Jefe que active los misiles manualmente de la nave para destruir los Cruceros. John logra activar los misiles y destruir los Cruceros, pero la nave junto con él es atraída al interior del planeta por un pozo gravitatorio.</p>
+                  <h3> Personajes Prinipales</h3>
+                <ul>
+                  <li>Andrew Del Rio (Primera Aparición)</li>
+                  <li>Austen</li>
+                  <li>Cortana</li>
+                  <li>Ur-Didacta</li>
+                  <li>Forthencho</li>
+                  <li>John-117</li>
+                  <li>Lincoln </li>
+                  <li>Roland</li>
+                </ul>
+                <h3>Lanzamiento (EU)</h3>
+                  <p>6 de Noviembre de 2012</p>
+              </div>
+          </div>
+         
+      </div>
+    </div>
+  </div>
+      
+    </main>
     <footer class="pb-2">
-        <div class=" d-flex flex-row container-fluid d-flex-lg-space-around">
-            <div class="  row-cols-1 row-cols-lg-1 pe-2 pe-lg-5">
-                <a><img src="./impg3/logoWhite.png" id="" width="36" height="22" alt=""></a>
-            </div>
-            <div class="  row-cols-1  pe-2 pe-lg-5" >
-                <a href="https://www.facebook.com/Halo/?locale=es_LA" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="20" height="20" id="icons"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg></a>
-                <a href="https://twitter.com/Halo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20" id="icons"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
-                <a href="https://www.twitch.tv/halo" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20" id="icons"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M391.17,103.47H352.54v109.7h38.63ZM285,103H246.37V212.75H285ZM120.83,0,24.31,91.42V420.58H140.14V512l96.53-91.42h77.25L487.69,256V0ZM449.07,237.75l-77.22,73.12H294.61l-67.6,64v-64H140.14V36.58H449.07Z"/></svg></a>
-                <a href="https://www.reddit.com/r/halo/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20" id="icons"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M440.3 203.5c-15 0-28.2 6.2-37.9 15.9-35.7-24.7-83.8-40.6-137.1-42.3L293 52.3l88.2 19.8c0 21.6 17.6 39.2 39.2 39.2 22 0 39.7-18.1 39.7-39.7s-17.6-39.7-39.7-39.7c-15.4 0-28.7 9.3-35.3 22l-97.4-21.6c-4.9-1.3-9.7 2.2-11 7.1L246.3 177c-52.9 2.2-100.5 18.1-136.3 42.8-9.7-10.1-23.4-16.3-38.4-16.3-55.6 0-73.8 74.6-22.9 100.1-1.8 7.9-2.6 16.3-2.6 24.7 0 83.8 94.4 151.7 210.3 151.7 116.4 0 210.8-67.9 210.8-151.7 0-8.4-.9-17.2-3.1-25.1 49.9-25.6 31.5-99.7-23.8-99.7zM129.4 308.9c0-22 17.6-39.7 39.7-39.7 21.6 0 39.2 17.6 39.2 39.7 0 21.6-17.6 39.2-39.2 39.2-22 .1-39.7-17.6-39.7-39.2zm214.3 93.5c-36.4 36.4-139.1 36.4-175.5 0-4-3.5-4-9.7 0-13.7 3.5-3.5 9.7-3.5 13.2 0 27.8 28.5 120 29 149 0 3.5-3.5 9.7-3.5 13.2 0 4.1 4 4.1 10.2.1 13.7zm-.8-54.2c-21.6 0-39.2-17.6-39.2-39.2 0-22 17.6-39.7 39.2-39.7 22 0 39.7 17.6 39.7 39.7-.1 21.5-17.7 39.2-39.7 39.2z"/></svg></a>
-                <a href="https://www.youtube.com/user/HaloWaypoint" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="20" height="20" id="icons"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg></a>
-                <a href="https://www.instagram.com/halo/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="20" height="20" id="icons"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
-            </div>
-            <div class="  row-cols-1 row-cols-lg-1 pe-2 pe-lg-5">
-                <a><img src="./imgp1/descarga.png" id="micro" width="36" height="22" alt=""></a>
-                <a><img src="./imgp1/1200px-PEGI_16.svg.png" id="ig" width="23" height="25" alt=""></a>
-            </div>
-        </div>
-    </footer>
+      <div class=" d-flex flex-row container-fluid footer ms-5 ms-lg-0">
+          <div class="  row-cols-1  pe-2 pe-lg-5">
+              <a><img src="imgs-juegos/logoWhite.png" id="camps" width="36" height="22" alt=""></a>
+          </div>
+          <div class="  row-cols-1  pe-2 pe-lg-5" >
+              <a href="https://www.facebook.com/Halo/?locale=es_LA" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="20" height="20" id="icons"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg></a>
+              <a href="https://twitter.com/Halo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20" id="icons"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
+              <a href="https://www.twitch.tv/halo" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20" id="icons"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M391.17,103.47H352.54v109.7h38.63ZM285,103H246.37V212.75H285ZM120.83,0,24.31,91.42V420.58H140.14V512l96.53-91.42h77.25L487.69,256V0ZM449.07,237.75l-77.22,73.12H294.61l-67.6,64v-64H140.14V36.58H449.07Z"/></svg></a>
+              <a href="https://www.reddit.com/r/halo/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20" id="icons"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M440.3 203.5c-15 0-28.2 6.2-37.9 15.9-35.7-24.7-83.8-40.6-137.1-42.3L293 52.3l88.2 19.8c0 21.6 17.6 39.2 39.2 39.2 22 0 39.7-18.1 39.7-39.7s-17.6-39.7-39.7-39.7c-15.4 0-28.7 9.3-35.3 22l-97.4-21.6c-4.9-1.3-9.7 2.2-11 7.1L246.3 177c-52.9 2.2-100.5 18.1-136.3 42.8-9.7-10.1-23.4-16.3-38.4-16.3-55.6 0-73.8 74.6-22.9 100.1-1.8 7.9-2.6 16.3-2.6 24.7 0 83.8 94.4 151.7 210.3 151.7 116.4 0 210.8-67.9 210.8-151.7 0-8.4-.9-17.2-3.1-25.1 49.9-25.6 31.5-99.7-23.8-99.7zM129.4 308.9c0-22 17.6-39.7 39.7-39.7 21.6 0 39.2 17.6 39.2 39.7 0 21.6-17.6 39.2-39.2 39.2-22 .1-39.7-17.6-39.7-39.2zm214.3 93.5c-36.4 36.4-139.1 36.4-175.5 0-4-3.5-4-9.7 0-13.7 3.5-3.5 9.7-3.5 13.2 0 27.8 28.5 120 29 149 0 3.5-3.5 9.7-3.5 13.2 0 4.1 4 4.1 10.2.1 13.7zm-.8-54.2c-21.6 0-39.2-17.6-39.2-39.2 0-22 17.6-39.7 39.2-39.7 22 0 39.7 17.6 39.7 39.7-.1 21.5-17.7 39.2-39.7 39.2z"/></svg></a>
+              <a href="https://www.youtube.com/user/HaloWaypoint" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="20" height="20" id="icons"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg></a>
+              <a href="https://www.instagram.com/halo/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="20" height="20" id="icons"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+          </div>
+          <div class="  row-cols-1 row-cols-lg-1 pe-2 pe-lg-5">
+              <a><img src="imgs-juegos/descarga.png" id="micro" width="36" height="22" alt=""></a>
+              <a><img src="imgs-juegos/1200px-PEGI_16.svg.png" id="ig" width="23" height="25" alt=""></a>
+          </div>
+      </div>
+  </footer>
+<!-- Script bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>

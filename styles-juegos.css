@@ -1,40 +1,135 @@
+body{
+    background-color: #0E191A !important;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
 @font-face {
     font-family: 'halo';
-    src: url(./font/Halo.ttf);
+    src: url(font/Halo.ttf);
 }
-a{
+.back{
+    background-image: url(imgs-juegos/back1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+    background-position: center;
+}
+.back-nav2{
+    background-color: #bec6c854;
     font-family: 'halo';
-    text-shadow: 0 0 8px rgba(0, 0, 0, 2);
-    font-size: 1.5vmax;
+    color:  #fd6812;
+}
+.letra{
+    font-family: 'halo';
+    color:  #fd6812;
 }
 
-h1{
+#img-1{
+    height: 150px;
+    width: 150px;
+}
+#img-2{
+    height: 150px;
+    width: 150px;
+}
+
+.back2{
+    background-image: url(imgs-juegos/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+    background-position: center;
+}
+.letra-2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+.letra-3{
+
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+
     font-family: 'halo';
-    text-shadow: 0 0 8px rgba(0, 0, 0, 2);
-    font-size: 2.3vmax;
+    color:  #fd6812;
 }
-#top{
-    color: rgb(16, 209, 209);
+
+h1, h2, h3{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+
+    font-family: 'halo';
+    color: #fd6812;
 }
-#top:hover{
-    color: rgba(2, 56, 56, 0.792);
-}
-#barra1{
-    background-color: rgba(28, 32, 29, 0.35);;
+
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
 }
 ul{
-    background-color: rgba(169, 169, 169, 0.463);
-}
-svg{
-    fill: blanchedalmond;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
 }
 footer{
     background-image: url(./imgp1/Halo-FooterBanner_Option1-1920x350.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-@media all and (min-width: 1000px){
-    a{
-        font-size: 5vh;
-    }
+svg{
+    fill: blanchedalmond;
 }
+@media all and (min-width: 1000px){
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    #ig{
+        width: 45px;
+        height: 45px;
+        margin-top: 5%;
+    }
+    #micro{
+        width: 80px;
+        height: 50px;
+        margin-top: 2%;
+    }
+    #camps{
+        width: 140px;
+        height: 50px;
+        margin-top: 2%;
+    }
+    #icons{
+        width: 50px;
+        height: 50px;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 5%;
+    }
+    #img-1{
+        height: 200px;
+        width: 300px;
+        
+    }
+    #img-2{
+        height: 200px;
+        width: 300px;
+    }
+} 
