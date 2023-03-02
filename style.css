@@ -31,6 +31,7 @@ header{
     padding-top: 10%;
     padding-bottom: 50%;
 }
+
 footer{
     background-image: url(./imgp1/Halo-FooterBanner_Option1-1920x350.jpg);
     background-size: cover;
@@ -44,12 +45,7 @@ footer{
     text-shadow: 0 0 8px rgba(0, 0, 0, 2);
     font-size: 2vmax;
 }
-#items2{
-    transform: translate(20%,-140%);
-    font-family: 'halo';
-    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-    font-size: 2vmax;
-}
+
 
 .i, .ii, .iii{
     object-fit: cover;
@@ -111,6 +107,7 @@ svg{
         z-index: 10;
         position: relative;
         transform: translate(2%, 5%);
+        
 
     }
     #globb:hover{
@@ -137,12 +134,8 @@ svg{
         width: 80px;
         height: 50px;
     }
-    #items2{
-        margin-top: auto;
-    }
-    section{
-        background-size: contain;
-    }
+    
+
     #infiniti{
         border: solid 7px #203C1380;    
     }

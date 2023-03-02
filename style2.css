@@ -7,6 +7,9 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+#imgchange{
+    border: solid rgba(95, 0, 139, 0.455) 4px;
+}
 
 a{
     font-family: 'halo';
@@ -23,7 +26,7 @@ h1{
     color: blueviolet;
 }
 #top{
-    color: rgb(16, 209, 209);
+    color: chocolate;
 }
 #top:hover{
     color: rgba(2, 56, 56, 0.792);

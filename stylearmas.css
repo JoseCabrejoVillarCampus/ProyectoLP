@@ -2,6 +2,21 @@
     font-family: 'halo';
     src: url(./font/Halo.ttf);
 }
+#cs{
+    background: linear-gradient(to bottom right, rgba(3, 3, 3, 0.484), rgba(40, 137, 21, 0.484));
+    border:  solid  darkcyan 3px;
+    border-radius: 3%;
+}
+#cs1{
+    background: linear-gradient(to bottom right, rgba(0, 255, 251, 0.484), rgba(1, 0, 0, 0.484));
+    border:  solid  darkcyan 3px;
+    border-radius: 3%;
+}
+#cs2{
+    background: linear-gradient(to bottom right,  rgba(22, 20, 21, 0.484), rgba(138, 21, 134, 0.484));
+    border:  solid  darkcyan 3px;
+    border-radius: 3%;
+}
 body{
     background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./impg3/High_resolution_wallpaper_background_ID_77700692657.jpg);
     background-size: cover;
@@ -30,9 +45,12 @@ a{
     text-align: center;
 }
 #imgchange{
-    width: 60px;
-    height: 40px;
+    width: 300px;
+    height: 200px;
 }
+
+
+
 #arm1, #arm2, #arm3, #arm4,#arm5, #arm6,#arm7, #arm8, #arm9, #arm10, #arm11, #arm12, #arm13, #arm14, #arm15, #arm16, #arm17, #arm18{
     font-family: 'halo';
     color:chartreuse;
@@ -40,7 +58,7 @@ a{
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
 #top{
-    color: rgb(16, 209, 209);
+    color: rgb(16, 209, 26);
 }
 #top:hover{
     color: rgba(2, 56, 56, 0.792);
@@ -115,6 +133,11 @@ svg{
         padding-left: 3%;
         padding-right: 3%;
         padding-top: 5%;
+    }
+    #cs:hover, #cs1:hover, #cs2:hover{
+        
+        border:  solid  rgb(126, 144, 24) 7px;
+
     }
 }
 
